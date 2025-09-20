@@ -6,9 +6,7 @@ import java.util.concurrent.*;
 
 public class Main {
     public static void main(String[] args) throws InterruptedException, ExecutionException {
-//        m1();
-//        m2();
-//        taskWithCallable();
+
     }
 
     private static void taskWithCallable() throws InterruptedException, ExecutionException {
