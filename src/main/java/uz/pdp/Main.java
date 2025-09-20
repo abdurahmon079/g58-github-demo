@@ -50,14 +50,4 @@ public class Main {
         executorService.shutdownNow();
     }
 
-    private static void m1() {
-        ScheduledExecutorService executorService = Executors.newSingleThreadScheduledExecutor();
-
-        Runnable runnable = () -> {
-            System.out.println(new Date());
-        };
-
-//        executorService.scheduleAtFixedRate(runnable, 1,5, TimeUnit.SECONDS);
-        executorService.scheduleWithFixedDelay(runnable,1,5,TimeUnit.SECONDS);
-    }
 }
